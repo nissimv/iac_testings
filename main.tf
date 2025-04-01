@@ -1,7 +1,7 @@
 provider "aws" {
   access_key = "AKIAFAKEACCESSKEY"  # Hardcoded secret
   secret_key = "fakeSecretKey12345" # Hardcoded secret
-  region     = "us-east-1"
+  region     = "us-west-1"
 }
 
 resource "aws_iam_policy" "bad_policy" {
